@@ -7,13 +7,13 @@ export const tokens: RefreshTokensStore = new Map();
 
 export function seedUserStore() {
   users.set("gwrodrigues@rocketseat.team", {
-    password: "123456",
+    password: "123123",
     permissions: ["users.list", "users.create", "metrics.list"],
     roles: ["administrator"],
   });
 
   users.set("estagiario@rocketseat.team", {
-    password: "123456",
+    password: "123123",
     permissions: ["users.list", "metrics.list"],
     roles: ["editor"],
   });
